@@ -1,0 +1,27 @@
+/* App ko pura viewport height dena */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* App ko flex container banao */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Content ko grow karne do */
+.content {
+  flex: 1;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  padding: 10px;
+  height: 60px;
+}
